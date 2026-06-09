@@ -1,0 +1,18 @@
+# 视频和音频材料（不需要上传）
+downloads/videos/
+downloads/audio/
+downloads/subtitles/
+
+# 二进制工具（太大，需要单独下载）
+bin/*.exe
+
+# 临时文件
+temp/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 日志文件
+*.log

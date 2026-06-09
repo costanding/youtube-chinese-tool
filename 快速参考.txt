@@ -1,0 +1,32 @@
+══════════════════════════════════════
+  YouTube 汉化工具 - 快速参考
+══════════════════════════════════════
+
+【日常使用】
+  双击桌面 YT汉化工具 → 粘贴链接 → 点汉化
+
+【更新引擎】
+  打开工具 → 点「更新内核」→ 自动备份+更新
+
+【文件位置】
+  视频: D:\YouTube汉化工具\downloads\videos\
+  音频: D:\YouTube汉化工具\downloads\audio\
+  字幕: D:\YouTube汉化工具\downloads\subtitles\
+
+【快捷方式丢了】
+  cscript D:\YouTube汉化工具\make_shortcut.vbs
+
+【打包分享】
+  双击 D:\YouTube汉化工具\pack.bat
+
+【命令行用法】
+  python D:\YouTube汉化工具\bin\dubber.py "链接"
+  python D:\YouTube汉化工具\bin\dubber.py "链接" --voice 女声
+  python D:\YouTube汉化工具\bin\dubber.py "链接" --mode srt
+
+【常见问题速查】
+  下载失败 → 更新内核
+  字幕 429  → 等几分钟重试
+  语音失败  → 重新运行
+  没声音    → 检查 ffmpeg.exe 存在
+  Python 未装 → 双击 start.bat 自动装
