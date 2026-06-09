@@ -76,13 +76,11 @@ git clone https://github.com/costanding/youtube-chinese-tool.git
 ```
 
 ### 2. 下载依赖工具
-由于文件较大，以下工具需要单独下载并放入 `bin/` 目录：
+双击 `download_tools.bat`，会自动下载 yt-dlp 和 ffmpeg 到 `bin/` 目录。
 
+或者手动下载：
 - **yt-dlp**: https://github.com/yt-dlp/yt-dlp/releases
 - **ffmpeg**: https://github.com/BtbN/FFmpeg-Builds/releases
-- **ffprobe**: 随 ffmpeg 一起提供
-
-下载后将 `yt-dlp.exe`、`ffmpeg.exe`、`ffprobe.exe` 放入 `bin/` 目录。
 
 ### 3. 运行
 双击 `start.bat` 启动程序。
